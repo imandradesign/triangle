@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Triangle Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Triangle Calculator</h2>
+        <h6>Enter in 3 different numeric values for the length of each triangle side</h6>
+      </div>
+      <div class="triangle-form">
+        <form class="form-group">
+          <label for="num1">Number 1</label>
+          <input type="text" class="form-control" id='num1'>
+          <label for="num2">Number 2</label>
+          <input type="text" class='form-control' id="num2">
+          <label for="num3">Number 3</label>
+          <input type="text" class="form-control" id="num3">
+
+          <button type="submit" class="btn btn-danger" id="button">Calculate</button>
+        </form>
+      </div>
+      <div id="iso">
+        <h3>Isosceles</h3>
+        <img src="img/isosceles.png" alt="iso">
+      </div>
+      <div id="equi">
+        <h3>Equilateral</h3>
+        <img src="img/equilateral.png" alt="equi">
+      </div>
+      <div id="scl">
+        <h3>Scalene</h3>
+        <img src="img/scalene.png" alt="sca">
+      </div>
+      <div id="not-triangle">
+        <h3>NOT a triangle!</h3>
+      </div>
+    </div>
+  </body>
+</html>
